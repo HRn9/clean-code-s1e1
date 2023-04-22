@@ -13,7 +13,8 @@
 .matrix-img {
     width: 100%;
 }
-.matrix-example .more-inf {
+.matrix-example 
+.more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -44,7 +45,8 @@
 .list-item {
     list-style:none;
 }
-.input, .btn{
+.input, 
+.btn{
     outline:none;
 }
 .btn {
@@ -105,7 +107,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.list-item > * {
+.list-item >
+* {
     vertical-align: middle;
 }
 
@@ -131,21 +134,25 @@
 }
 
 /* Completed */
-.completed-tasks .task {
+.completed-tasks 
+.task {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.list .input-text {
+.list 
+.input-text {
     display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode 
+.input-text {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode > .task-label {
+.edit-mode 
+.task-label {
     display: none;
 }
