@@ -18,9 +18,12 @@
 }
 
 @media (max-width:768px) {
-.matrix-example { text-align: center;
+
+    .matrix-example { 
+        text-align: center;
+    }
 }
-}
+
 .todo-wrapper {
     display: block;
     width: 500px;
